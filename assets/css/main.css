@@ -96,8 +96,11 @@ body {
 	background-color: #fff;
 	border-color: #fff;
 }
+.navbar-inverse .navbar-nav > li > a {
+	color: #000;
+}
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
-    color: #000;
+    color: #555;
     background-color: transparent;
 }
 .navbar-inverse .navbar-brand {
@@ -206,7 +209,7 @@ blockquote cite:before {
 }
 /* Links */
 a {
-	color: #7c4dff;
+	color: #6b39f5;
 	word-wrap: break-word;
 	-webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
 	-moz-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -411,7 +414,7 @@ a:before, a:after {
 }
 #footerwrap span.copyright {
 	line-height: 40px;
-	color: #888;
+	color: #fff;
 	font-weight: 400;
 }
 #footerwrap span.copyright a {
