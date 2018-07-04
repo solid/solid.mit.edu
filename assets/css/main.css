@@ -229,6 +229,11 @@ a:before, a:after {
 	-o-transition: color 0.1s ease-in, background 0.1s ease-in;
 	transition: color 0.1s ease-in, background 0.1s ease-in;
 }
+
+.sections:nth-child(odd) {
+	background: #f5f5f5;
+}
+
 /* ==========================================================================
    Wrap Sections
    ========================================================================== */
@@ -292,17 +297,40 @@ a:before, a:after {
     padding: 60px 0;
 }
 #about {
-	background: #f5f5f5;
 	padding: 60px 0;
 }
 #about img {
 	margin-top: 65px;
 }
 #services {
-	background: #f5f5f5;
 	padding: 60px 0;
 	text-align: center;
 }
+
+#involved {
+	padding: 60px 0;
+}
+
+#inrupt {
+	padding: 60px 0;
+}
+
+#happening {
+	padding: 60px 0;
+}
+
+#alums {
+	padding: 60px 0;
+}
+
+#sponsors {
+	padding: 60px 0;
+}
+
+.highlight {
+	font-weight: bold;
+}
+
 #services .fa {
 	color: #ffbf00;
 }
@@ -310,7 +338,6 @@ a:before, a:after {
 	text-align: center;
 }
 #team {
-	background: #f5f5f5;
 	padding: 60px 0;
 }
 #team H4 {
@@ -338,11 +365,13 @@ a:before, a:after {
 	color: #fff;
 }
 #showcase {
-	background: #fff;
 	padding: 60px 0;
 }
 #showcase .btn-default {
 	border: 0;
+}
+#sponsors {
+	background: #fff;
 }
 #contact {
 	background: #fff;

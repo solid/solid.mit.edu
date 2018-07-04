@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+f<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -41,6 +41,8 @@
         <ul class="nav navbar-nav navbar-right">
           <li> <a href="#home" class="smoothScroll"> Home</a></li>
           <li> <a href="#about" class="smoothScroll"> About</a></li>
+          <li> <a href="#involved" class="smoothScroll"> Contribute</a></li>
+          <li> <a href="#inrupt" class="smoothScroll"> Inrupt</a></li>
           <li> <a href="#showcase" class="smoothScroll"> Showcase</a></li>
           <li> <a href="#team" class="smoothScroll"> Team</a></li>
           <li> <a href="#sponsors" class="smoothScroll"> Sponsors</a></li>
@@ -89,9 +91,8 @@
 </div>
 <!-- container -->
 
-
 <!-- ==== SERVICES ==== -->
-<div id="about" name="about">
+<div id="about" class="sections" name="about">
   <div class="container">
     <div class="row">
       <h1 class="centered">What does Solid offer?</h1>
@@ -110,14 +111,13 @@
       <div class="col-lg-4 callout centered"> <i class="fa fa-database fa-3x icon-color"></i>
         <h3>True data ownership</h3>
         <p class="justified">Users should have the freedom to choose where their
-            data resides and who is allowed to access it by decoupling content
-            from the application itself.</p>
+            data resides and who is allowed to access it. By decoupling content from the application itself, users are now able to do so.</p>
       </div>
       <div class="col-lg-4 callout centered"> <i class="fa fa-random fa-3x icon-color"></i>
         <h3>Modular design</h3>
         <p class="justified">Because applications are decoupled from the data they
-            produce, users will be able to avoid vendor lock-in by seamlessly
-            switching the apps and personal data storage servers, without losing
+            produce, users will be able to avoid vendor lock-in, seamlessly
+            switching between apps and personal data storage servers, without losing
             any data or social connections.</p>
       </div>
       <div class="col-lg-4 callout centered"> <i class="fa fa-recycle fa-3x icon-color"></i>
@@ -131,8 +131,135 @@
 </div>
 <!-- container -->
 
+<!-- ==== WHATS HAPPENING ==== -->
+<div id="happening" class="sections" name="happening">
+  <div class="container">
+    <div class="row">
+      <h1 class="centered">What’s happening now?</h1>
+      <hr>
+      <p class="centered">
+        The Solid team has encapsulated several years of research and prototyping by a talented group of contributors, led by Tim, into a Node.js based implementation of the Solid server specification, and a basic data browser to allow users to play with the system. Here’s what’s coming in the next couple of months:
+      </p>
+      <hr>
+      <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8 callout centered"> <i class="fa fa-database fa-3x icon-color"></i>
+          <h3>August, 2018</h3>
+          <p class="centered">Move Solid infrastructure, including the <a href="https://solid.community/" target="_blank">solid.community</a> pod provider, to a safer and more reliable cloud infrastructure on AWS.</p>
+          <p class="centered">The next major release - 5.0.0 - will complete the core feature set by adding support for Group ACLs and stabilizing key components, including OpenID Connect authentication.</p>
+        </div>
+        <div class="col-lg-2"></div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8 callout centered"> <i class="fa fa-database fa-3x icon-color"></i>
+          <h3>September, 2018</h3>
+          <p class="centered">Beta release of the Solid Application Developer Kit to the community, which will provide the key components essential to rapidly create a first class Solid application with a great user experience.</p>
+          <p class="centered">Rollout a new user experience to the <a href="https://solid.community/" target="_blank">solid.community</a> pod provider, incorporating the best practices introduced in the Solid Application Developer Kit.</p>
+        </div>
+        <div class="col-lg-2"></div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8 callout centered"> <i class="fa fa-database fa-3x icon-color"></i>
+          <h3>Also in process...</h3>
+          <p class="centered"><b>Solid Community Application Registry.</b> Applications that are submitted and approved can get listed in the community directory.</p>
+          <p class="centered"><b>Solid Community Provider Registry.</b> If you’re looking to host a pod provider of your own, you can go through a review process and get added to our registry of trusted providers, which will get you listed in the community directory.</p>
+        </div>
+        <div class="col-lg-2"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- container -->
+
+<!-- ==== GETTING INVOLVED ==== -->
+<div id="involved" class="sections" name="involved">
+  <div class="container">
+    <div class="row">
+      <h1 class="centered">How can I get involved with Solid?</h1>
+      <hr>
+      <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8 callout centered"> <i class="fa fa-database fa-3x icon-color"></i>
+          <h3>Use it!</h3>
+          <p class="centered">The best way to help the community is to embrace the technology at the heart of it. Create an account at <a href="https://solid.community/" target="_blank">solid.community</a>, store some of your stuff there, and use some apps! Things may be a little rough around the edges now, but we’re feverishly working on the next generation user experience and your input and feedback now can still help shape what we release very soon!</p>
+        </div>
+        <div class="col-lg-2"></div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8 callout centered"> <i class="fa fa-database fa-3x icon-color"></i>
+          <h3>QA / Testing</h3>
+          <p class="centered">The more potential issues that we can find and resolve, the better. We’re looking for volunteers that are willing to stress test any and all facets of the API or experience. Manual work is always welcome, but if you’ve got expertise with test automation even better. Please report all issues to the appropriate project in the <a href="https://github.com/solid" target="_blank">Solid Organization</a> on GitHub.</p>
+        </div>
+        <div class="col-lg-2"></div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8 callout centered"> <i class="fa fa-database fa-3x icon-color"></i>
+          <h3>Development</h3>
+          <p class="centered">Get over to <a href="https://github.com/solid" target="_blank">Github</a>, pull down some code, get acquainted, and see if you can’t help out on some of the issues in the tracker. Most of the Solid server development efforts are currently focused on <a href="https://github.com/solid/node-solid-server" target="_blank">node-solid-server</a>, and there’s plenty of work to go around. Join the <a href="https://gitter.im/solid/node-solid-server" target="_blank">gitter chat</a> if you’re interested in helping out! </p>
+          <p class="centered">If you’re looking to do app development, get acquainted with <a href="https://github.com/linkeddata/rdflib.js" target="_blank">rdflib</a>, <a href="https://github.com/solid/solid-ui" target="_blank">solid-ui</a>, <a href="https://github.com/solid/solid-panes" target="_blank">solid-panes</a>, and <a href="https://github.com/linkeddata/mashlib" target="_blank">mashlib</a>, then check back in September for the release of our Application Development Kit, which will provide some additional componentry for rapid app development with a lot of the common experience workflows mapped out for you.</p>
+        </div>
+        <div class="col-lg-2"></div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8 callout centered"> <i class="fa fa-database fa-3x icon-color"></i>
+          <h3>Documentation</h3>
+          <p class="centered">In advance of the new Solid website and developer portal, we’re going to be looking for a lot of help creating content to onboard contributors, app developers, and users. If you’ve got a background in technical writing and are willing to chip in, <a href="https://gitter.im/solid/chat" target="_blank">let us know!</a></p>
+        </div>
+        <div class="col-lg-2"></div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8 callout centered"> <i class="fa fa-database fa-3x icon-color"></i>
+          <h3>Packaging</h3>
+          <p class="centered">If you enjoy packaging up software for use in a specific environment, we’d love to get node-solid-server packages created for various operating system distributions.</p>
+        </div>
+        <div class="col-lg-2"></div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8 callout centered"> <i class="fa fa-database fa-3x icon-color"></i>
+          <h3>Security</h3>
+          <p class="centered">It is very, very, important that we surface and remediate any potential security issues throughout the Solid ecosystem. If you have experience uncovering vulnerabilities, and are willing to help us harden the codebase, <a href="https://gitter.im/solid/chat" target="_blank">please reach out!</a></p>
+        </div>
+        <div class="col-lg-2"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- container -->
+
+<!-- ==== WHATS INRUPT ==== -->
+<div id="inrupt" class="sections" name="inrupt">
+  <div class="container">
+    <div class="row">
+      <h1 class="centered">What is Inrupt?</h1>
+      <hr>
+      <p class="centered">We are pleased to note that a new start-up, Inrupt, Inc, will be putting its own effort into the Solid open source platform and the Solid movement.</p>
+      <hr>
+      <p class="centered">
+        “The Solid platform will create a new generation of web applications that realize Tim’s vision of a truly decentralized web. Working with Tim, we’ve created the company Inrupt to help develop Solid and offer complementary software and services to support its potential. We’re heads-down getting Inrupt ready for launch, but in the meantime, you can contact us at <a href="mailto:info@inrupt.com" target="_blank">info@inrupt.com</a>”
+      </p>
+      <p class="highlight centered">John Bruce, CEO of Inrupt, Inc.</p>
+
+    </div>
+  </div>
+</div>
+<!-- container -->
+
 <!-- ==== PORTFOLIO ==== -->
-<div id="showcase" name="showcase">
+<div id="showcase" class="sections" name="showcase">
     <div class="container">
       <div class="row">
         <h2 class="centered">Showcase</h2>
@@ -377,34 +504,38 @@
 <!-- /container -->
 
 <!-- ==== TEAM MEMBERS ==== -->
-<div id="team" name="team">
+<div id="team" class="sections" name="team">
   <div class="container">
     <div class="row centered">
       <h2 class="centered">Meet Our Team</h2>
       <hr>
-      <div class="col-lg-3 centered top20"> <img class="img img-circle" src="assets/img/team/timbl.jpg" height="120px" width="120px" alt="">
-        <h4><b>Tim</b></h4>
-        <p>As the project director, but also as a web developer, Tim Berners-Lee is involved in the overall planning and evolution of Solid.</p>
-        <a href="https://github.com/timbl/" target="_blank"><i class="fa fa-github icon-color"></i></a>  </div>
-      <div class="col-lg-3 centered top20"> <img class="img img-circle" src="assets/img/team/lalana.jpg" height="120px" width="120px" alt="">
-        <h4><b>Lalana</b></h4>
-        <p>Lalana is the project manager, but she also keeps an eye on the research aspects of the project.</p>
-        </div>
 
+      <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-4 centered top20"> <img class="img img-circle" src="assets/img/team/timbl.jpg" height="120px" width="120px" alt="">
+          <h4><b>Tim</b></h4>
+          <p>As the project director, but also as a web developer, Tim Berners-Lee is involved in the overall planning and evolution of Solid.</p>
+          <a href="https://github.com/timbl/" target="_blank"><i class="fa fa-github icon-color"></i></a>  </div>
+        <div class="col-lg-4 centered top20"> <img class="img img-circle" src="assets/img/team/lalana.jpg" height="120px" width="120px" alt="">
+          <h4><b>Lalana</b></h4>
+          <p>Lalana is the project manager, but she also keeps an eye on the research aspects of the project.</p>
+        </div>
+        <div class="col-lg-2"></div>
+      </div>
     </div>
     <div class="row centered top20">
 
-        <div class="col-lg-3 centered top20"> <img class="img img-circle" src="assets/img/team/ericp.jpg" height="120px" width="120px" alt="">
+        <div class="col-lg-4 centered top20"> <img class="img img-circle" src="assets/img/team/ericp.jpg" height="120px" width="120px" alt="">
           <h4><b>Eric</b></h4>
           <p>Eric has a background as W3C staff member, and developer of many RDF-based systems, including query systems.</p>
           <a href="https://github.com/ericprud" target="_blank"><i class="fa fa-github icon-color"></i></a> </div>
 
-        <div class="col-lg-3 centered top20"> <img class="img img-circle" src="assets/img/team/melvin.png" height="120px" width="120px" alt="">
+        <div class="col-lg-4 centered top20"> <img class="img img-circle" src="assets/img/team/melvin.png" height="120px" width="120px" alt="">
           <h4><b>Melvin</b></h4>
           <p>Melvin is an independent developer who likes to collaborate with us on Solid applications.</p>
           <a href="https://github.com/melvincarvalho" target="_blank"><i class="fa fa-github icon-color"></i></a> </div>
 
-        <div class="col-lg-3 centered top20"> <img class="img img-circle" src="assets/img/team/ruben.jpg" height="120px" width="120px" alt="Ruben">
+        <div class="col-lg-4 centered top20"> <img class="img img-circle" src="assets/img/team/ruben.jpg" height="120px" width="120px" alt="Ruben">
           <h4><b>Ruben</b></h4>
           <p>Ruben is a Professor of Semantic Web technology at IDLab, Ghent University – imec, and a recurring visitor to MIT/CSAIL.</p>
           <a href="https://github.com/RubenVerborgh" target="_blank"><i class="fa fa-github icon-color"></i></a> </div>
@@ -414,44 +545,44 @@
 </div>
 
 <!-- ==== OLD TEAM MEMBERS ==== -->
-<div id="alums" name="alums">
+<div id="alums" class="sections" name="alums">
   <div class="container">
     <div class="row centered">
       <h2 class="centered">Team Alumni</h2>
       <hr>
-      <div class="col-lg-3 centered top20"> <img class="img img-circle" src="assets/img/team/amy.png" height="120px" width="120px" alt="">
+      <div class="col-lg-4 centered top20"> <img class="img img-circle" src="assets/img/team/amy.png" height="120px" width="120px" alt="">
         <h4><b>Amy</b></h4>
-        <p>Amy was a PhD visiting student at MIT from the University of Edinburgh in 2015-2016. She lead the bridging of the Solid concepts with the W3C Social Web WG, and co-lead the development of the <a href="https://www.w3.org/TR/ldn/">Linked Data Notifications</a> (LDN) protocol.</p>
+        <p>Amy was a PhD visiting student at MIT from the University of Edinburgh in 2015-2016. She led the bridging of the Solid concepts with the W3C Social Web WG, and co-led the development of the <a href="https://www.w3.org/TR/ldn/">Linked Data Notifications</a> (LDN) protocol.</p>
         <a href="http://rhiaro.co.uk/#me" target="_blank"><i class="fa fa-hand-spock-o"></i></a><a href="https://twitter.com/rhiaro" target="_blank"><i class="fa fa-twitter icon-color"></i></a> <a href="https://github.com/rhiaro" target="_blank"><i class="fa fa-github icon-color"></i></a> </div>
 
-      <div class="col-lg-3 centered top20"> <img class="img img-circle" src="assets/img/team/andrei.png" height="120px" width="120px" alt="">
+      <div class="col-lg-4 centered top20"> <img class="img img-circle" src="assets/img/team/andrei.png" height="120px" width="120px" alt="">
         <h4><b>Andrei</b></h4>
         <p>Andrei was a researcher and developer for the Solid project. His time is spent between writing code and helping advance the Solid project.</p>
         <a href="https://twitter.com/slashdeiu" target="_blank"><i class="fa fa-twitter icon-color"></i></a> <a href="https://github.com/deiu"><i class="fa fa-github icon-color"></i></a> </div>
 
-      <div class="col-lg-3 centered top20"> <img class="img img-circle" src="assets/img/team/daniel.jpg" height="120px" width="120px" alt="">
+      <div class="col-lg-4 centered top20"> <img class="img img-circle" src="assets/img/team/daniel.jpg" height="120px" width="120px" alt="">
           <h4><b>Daniel</b></h4>
-          <p>Daniel was a front-end developer for the Solid project. He did amazing work writing client-side apps, as well as contributing to the libraries,
-            adn helping integrate the two forms of autehntication into the double auth stack.</p>
+          <p>Daniel was a front-end developer for the Solid project. He did amazing work writing client-side apps, and he contributed to the libraries,
+             to integrate the two forms of authentication into the double auth stack.</p>
           <a href="https://twitter.com/dan____f" target="_blank"><i class="fa fa-twitter icon-color"></i></a> <a href="https://github.com/dan-f"><i class="fa fa-github icon-color"></i></a> </div>
-
-    <div class="col-lg-3 centered top20"> <img class="img img-circle" src="assets/img/team/dmitri.jpg" height="120px" width="120px" alt="">
-      <h4><b>Dmitri</b></h4>
-        <p>Dmitri was the lead developer for the JS-based Solid server, and also played an important role as our community manager.
-        He was responsible for developing the OpenID COnnect (OIDC) autentication.</p>
-        <a href="https://github.com/dmitrizagidulin" target="_blank"><i class="fa fa-github icon-color"></i></a> </div>
     </div>
 
     <div class="row centered top20">
-      <div class="col-lg-3 centered top20"> <img class="img img-circle" src="assets/img/team/nicola.jpg" height="120px" width="120px" alt="">
+      <div class="col-lg-4 centered top20"> <img class="img img-circle" src="assets/img/team/dmitri.jpg" height="120px" width="120px" alt="">
+        <h4><b>Dmitri</b></h4>
+        <p>Dmitri was the lead developer for the JS-based Solid server, and he played an important role as our community manager.
+          He was responsible for developing the OpenID COnnect (OIDC) authentication.</p>
+        <a href="https://github.com/dmitrizagidulin" target="_blank"><i class="fa fa-github icon-color"></i></a> </div>
+
+      <div class="col-lg-4 centered top20"> <img class="img img-circle" src="assets/img/team/nicola.jpg" height="120px" width="120px" alt="">
         <h4><b>Nicola</b></h4>
-        <p>Nicola is currently a PhD student at MIT, visiting Protocol Labs for a year from 2017-09.
+        <p>Nicola is currently a PhD student at MIT, visiting Protocol Labs for a year from September 2017.
           He was also a lead developer for the reference implementation of the Solid server.</p>
         <a href="https://github.com/nicola" target="_blank"><i class="fa fa-github icon-color"></i></a></div>
 
-      <div class="col-lg-3 centered top20"> <img class="img img-circle" src="assets/img/team/sarven.jpg" height="120px" width="120px" alt="">
+      <div class="col-lg-4 centered top20"> <img class="img img-circle" src="assets/img/team/sarven.jpg" height="120px" width="120px" alt="">
         <h4><b>Sarven</b></h4>
-        <p>Sarven was a PhD visiting student at MIT from the University of Bonn in 2015-2016. He co-lead the development of LDN and works on <a href="https://dokie.li/">dokieli</a>.</p>
+        <p>Sarven was a PhD visiting student at MIT from the University of Bonn in 2015-2016. He co-led the development of LDN and works on <a href="https://dokie.li/">dokieli</a>.</p>
         <a href="http://csarven.ca/#i"><i class="fa fa-hand-rock-o icon-color"></i></a> <a href="https://twitter.com/csarven"><i class="fa fa-twitter icon-color"></i></a> <a href="https://github.com/csarven"><i class="fa fa-github icon-color"></i></a></div>
     </div>
   </div>
@@ -460,7 +591,7 @@
 <!-- container -->
 
 <!-- ==== Sponsors ==== -->
-<div id="sponsors" name="sponsors">
+<div id="sponsors" class="sections" name="sponsors">
   <div class="container">
     <div class="row">
       <h2 class="centered">Sponsors</h2>
@@ -479,7 +610,7 @@
 
 
 <!-- ==== CONTACT ==== -->
-<div id="contact" name="contact">
+<div id="contact" class="sections" name="contact">
   <div class="container">
     <div class="row">
       <h2 class="centered">Contact Us</h2>
