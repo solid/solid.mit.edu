@@ -32,14 +32,15 @@ hr {
 	border: 0;
 	margin: 3em 0;
 	padding: 0;
-	background-image: -webkit-linear-gradient(left, #fff, #ccc, #fff);
-	background-image: -moz-linear-gradient(left, #fff, #ccc, #fff);
-	background-image: -ms-linear-gradient(left, #fff, #ccc, #fff);
-	background-image: -o-linear-gradient(left, #fff, #ccc, #fff);
+	background-image: linear-gradient(to right, #fff, #ccc, #fff);
 	width: 50%;
 	left: 25%;
 	position: relative;
 	border: none;
+}
+
+.sections:nth-child(odd) hr {
+	background-image: linear-gradient(to right, #f5f5f5, #ccc, #f5f5f5);
 }
 
 img {
