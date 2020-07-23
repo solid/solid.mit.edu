@@ -64,6 +64,20 @@
 -->
 <!-- /headerwrap -->
 
+	    <div id="draft-warning"></div>
+<script>
+  if (document.location.hostname === 'localhost' || document.location.hostname === 'solid.github.io') {
+    const draftWarningElement = document.getElementById('draft-warning')
+    draftWarningElement.innerHTML = `
+      <div class="message is-danger is-large" role="alert">
+        <div class="message-body">
+          You are viewing the original website of the Solid Project at MIT. Please join us at the official Solid project website for current activities.</div>
+      </div>
+    `;
+  }
+</script>
+
+
 <!-- ==== ABOUT ==== -->
 <div id="home" name="home">
   <div class="container">
