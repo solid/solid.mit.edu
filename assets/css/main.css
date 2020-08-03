@@ -611,6 +611,12 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 	margin-bottom: 20px;
 }
 
+.legacy-banner {
+	text-align: center;
+	background-color: yellow;
+	font-size: 1.3em;
+}
+
 /* ==========================================================================
    MEDIA QUERIES
    ========================================================================== */
